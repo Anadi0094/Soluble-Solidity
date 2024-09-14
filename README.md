@@ -68,7 +68,7 @@ These steps will allow you to test and manage your token contract using Remix.
 
 ## Authors
 ANADI SHUKLA                                                                                                                
-@YASHGUPTA
+@ANADI SHUKLA
 
 ## License
 
