@@ -15,7 +15,7 @@ The contract stores the token name, abbreviation, and total supply, maps address
 
 ### Executing program
 
-To run this program, use Remix, an online Solidity IDE. Visit the Remix website at Remix IDE https://remix.ethereum.org/, create a new file by clicking the "Crete File" icon in the left-hand sidebar, and save it with a '.sol' extension (e.g., Token.sol). Copy and paste the provided code into the file, which includes functions to mint and burn tokens.
+To run this program, use Remix, an online Solidity IDE. Visit the Remix website at Remix IDE https://remix.ethereum.org/, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file, which includes functions to mint and burn tokens.
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
