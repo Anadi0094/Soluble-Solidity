@@ -20,20 +20,6 @@ To run this program, use Remix, an online Solidity IDE. Visit the Remix website 
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
-/*
-       REQUIREMENTS
-    1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
-    2. Your contract will have a mapping of addresses to balances (address => uint)
-    3. You will have a mint function that takes two parameters: an address and a value. 
-       The function then increases the total supply by that number and increases the balance 
-       of the “sender” address by that amount
-    4. Your contract will have a burn function, which works the opposite of the mint function, as it will destroy tokens. 
-       It will take an address and value just like the mint functions. It will then deduct the value from the total supply 
-       and from the balance of the “sender”.
-    5. Lastly, your burn function should have conditionals to make sure the balance of "sender" is greater than or equal 
-       to the amount that is supposed to be burned.
-*/
-
 contract MyToken {
 
     // public variables here
@@ -63,13 +49,15 @@ contract MyToken {
 To compile the code, navigate to the "Solidity Compiler" tab on the left sidebar in Remix. Ensure the "Compiler" version is set to 0.8.18 or another compatible version, then click "Compile MyToken.sol."
 After successful compilation, proceed to deploy the contract by going to the "Deploy & Run Transactions" tab on the left sidebar. Choose the "MyToken" contract from the dropdown menu and press the "Deploy" button.
 
-With the contract deployed, you can interact with it by using the provided functions. To mint new tokens, select the mint function, input the recipient's address and the amount of tokens to mint, and click "transact." To burn tokens, select the burn function, input the address and the quantity of tokens to burn, then click "transact."
+With the contract deployed, you can interact with it by using the provided functions.
+Minting: To mint new tokens, select the mint function, input the recipient's address and the amount of tokens to mint, and click "transact." 
+Burning: To burn tokens, select the burn function, input the address and the quantity of tokens to burn, then click "transact."
 
 These steps will allow you to test and manage your token contract using Remix.
 
 ## Authors
 ANADI SHUKLA                                                                                                                
-@ANADI SHUKLA
+@Anadi0094
 
 ## License
 
