@@ -58,6 +58,7 @@ contract MyToken {
     }
 }
 
+
 ```
 To compile the code, navigate to the "Solidity Compiler" tab on the left sidebar in Remix. Ensure the "Compiler" version is set to 0.8.18 or another compatible version, then click "Compile MyToken.sol."
 After successful compilation, proceed to deploy the contract by going to the "Deploy & Run Transactions" tab on the left sidebar. Choose the "MyToken" contract from the dropdown menu and press the "Deploy" button.
